@@ -1,0 +1,31 @@
+.container{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+.btn-primary{
+    margin-left: 150px;
+    width: 175px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+}

@@ -1,3 +1,3 @@
-const API_URL = "http://localhost:4000"
+const API_URL = "https://auth-j612.onrender.com:4000"
 
 export default API_URL

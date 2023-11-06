@@ -3,7 +3,7 @@ Check out the application here: https://resilient-centaur-8e3fef.netlify.app/
 
 # User Authentication App (MERN Stack)
 
-This is a full-stack web application for user authentication built using the MERN stack. It allows users to register, login, and access protected resources.
+This is a full-stack web application for user authentication built using the MERN stack. It allows users to register, login, and access the homepage.
 
 ## Features
 
@@ -12,7 +12,7 @@ This is a full-stack web application for user authentication built using the MER
 - Password Hashing: Passwords are securely hashed before being stored in the database.
 - JWT Authentication: JSON Web Tokens are used for secure authentication.
 - Protected Routes: Certain routes and resources are protected and require authentication.
-- User Profile: Displays user details and allows for profile updates.
+- User Homepage: Displays user details.
 
 ## Technologies Used
 

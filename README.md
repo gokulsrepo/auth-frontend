@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Check out the application here: https://resilient-centaur-8e3fef.netlify.app/
 
-Currently, two official plugins are available:
+# User Authentication App (MERN Stack)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a full-stack web application for user authentication built using the MERN stack. It allows users to register, login, and access protected resources.
+
+## Features
+
+- User Registration: Allows new users to create an account with a unique email and password.
+- User Login: Existing users can log in using their registered email and password.
+- Password Hashing: Passwords are securely hashed before being stored in the database.
+- JWT Authentication: JSON Web Tokens are used for secure authentication.
+- Protected Routes: Certain routes and resources are protected and require authentication.
+- User Profile: Displays user details and allows for profile updates.
+
+## Technologies Used
+
+- MongoDB: A NoSQL database used for storing user data.
+- Express.js: A web application framework for handling HTTP requests.
+- React.js: A JavaScript library for building user interfaces.
+- Node.js: A JavaScript runtime environment for server-side development.
+- JWT (JSON Web Tokens): Used for secure authentication.
+- bcrypt: A library for hashing passwords.
+

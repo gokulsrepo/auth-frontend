@@ -33,7 +33,8 @@ const Login = () => {
         }
     return (
             <Container>
-                <h1>Login Form</h1>
+                <h1>User Auth</h1>
+                <h1>Login</h1>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group>
                         <Form.Label>Email</Form.Label>
@@ -45,6 +46,7 @@ const Login = () => {
                     </Form.Group>
                     <Button variant="primary" type="submit">Login</Button>
                     <p>New here? <Link to="/">Register</Link></p>
+                    <p>Made by Gokul</p>
                 </Form>
             </Container>
     );

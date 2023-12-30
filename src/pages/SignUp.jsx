@@ -33,7 +33,8 @@ const SignUp = () => {
         }
     return (
         <Container>
-            <h1>Registration Form</h1>
+            <h1>User Auth</h1>
+            <h1>Registration</h1>
             <Form onSubmit={handleSubmit}>
                 <Form.Group>
                     <Form.Label>Name</Form.Label>
@@ -49,6 +50,7 @@ const SignUp = () => {
                 </Form.Group>
                 <Button variant="primary" type="submit">Register</Button>
                 <p>Already have an account? <Link to="login">Login</Link></p>
+                <p>Made by Gokul</p>
             </Form>
         </Container>
     );
